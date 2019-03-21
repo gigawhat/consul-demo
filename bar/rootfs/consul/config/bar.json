@@ -1,0 +1,13 @@
+{
+  "service": {
+    "name": "bar",
+    "port": 80,
+    "checks": [
+      {
+        "http": "http://localhost:80/",
+        "interval": "10s",
+        "timeout": "1s"
+      }
+    ]
+  }
+}
